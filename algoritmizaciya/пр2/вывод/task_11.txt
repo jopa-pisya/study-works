@@ -1,0 +1,18 @@
+==============================================================================
+ЗАДАНИЕ 11. Temperature 2.0: приватное значение и свойство fahrenheit
+==============================================================================
+t.celsius   = 20.0
+t.fahrenheit = 68.0
+
+Устанавливаем t.fahrenheit = 68
+t.celsius   = 20.0
+t.fahrenheit = 68.0
+Обратное преобразование корректно: True
+
+Попытка прямой записи через свойство celsius:
+AttributeError: property 'celsius' of 'TemperatureV2' object has no setter
+
+Попытка прочитать приватный атрибут извне класса:
+AttributeError: 'TemperatureV2' object has no attribute '__celsius'
+Реальное имя после name mangling хранит значение: 20.0
+После t.__celsius = 100 значение t.celsius не изменилось: 20.0

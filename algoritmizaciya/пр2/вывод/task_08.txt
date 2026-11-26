@@ -1,0 +1,12 @@
+==============================================================================
+ЗАДАНИЕ 8. Атрибут класса — счётчик точек
+==============================================================================
+Создана Point (1; 2), PointCounter.count_points = 1
+Создана Point (3; 4), PointCounter.count_points = 2
+Создана Point (5; 6), PointCounter.count_points = 3
+
+--- Атрибут экземпляра ---
+p1.color = red
+hasattr(p2, 'color'): False
+hasattr(PointCounter, 'color'): False
+PointCounter.count_points = 3
