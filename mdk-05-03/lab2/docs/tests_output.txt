@@ -1,0 +1,28 @@
+test_add (test_calculator.TestAdd.test_add) ... ok
+test_add_negative (test_calculator.TestAdd.test_add_negative) ... ok
+test_div (test_calculator.TestDiv.test_div) ... ok
+test_div_float (test_calculator.TestDiv.test_div_float) ... ok
+test_div_zero (test_calculator.TestDiv.test_div_zero) ... ok
+test_factorial (test_calculator.TestFactorial.test_factorial) ... ok
+test_factorial_negative (test_calculator.TestFactorial.test_factorial_negative) ... ok
+test_factorial_zero (test_calculator.TestFactorial.test_factorial_zero) ... ok
+test_memory_add (test_calculator.TestMemory.test_memory_add) ... ok
+test_memory_clear (test_calculator.TestMemory.test_memory_clear) ... ok
+test_memory_empty (test_calculator.TestMemory.test_memory_empty) ... ok
+test_memory_save (test_calculator.TestMemory.test_memory_save) ... ok
+test_mul (test_calculator.TestMul.test_mul) ... ok
+test_mul_zero (test_calculator.TestMul.test_mul_zero) ... ok
+test_power (test_calculator.TestPower.test_power) ... ok
+test_power_zero (test_calculator.TestPower.test_power_zero) ... ok
+test_sqrt (test_calculator.TestSqrt.test_sqrt) ... ok
+test_sqrt_float (test_calculator.TestSqrt.test_sqrt_float) ... ok
+test_sqrt_negative (test_calculator.TestSqrt.test_sqrt_negative) ... ok
+test_sub (test_calculator.TestSub.test_sub) ... ok
+test_sub_negative (test_calculator.TestSub.test_sub_negative) ... ok
+test_chain (test_calculator.TestTogether.test_chain) ... ok
+test_memory_and_calc (test_calculator.TestTogether.test_memory_and_calc) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.001s
+
+OK
