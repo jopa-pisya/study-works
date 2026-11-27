@@ -33,10 +33,3 @@ python -m unittest -v
 Ran 23 tests in 0.001s
 OK
 ```
-
-## Как пересобрать отчёт
-
-```
-python tools\make_screenshot.py
-python tools\build_report.py
-```
